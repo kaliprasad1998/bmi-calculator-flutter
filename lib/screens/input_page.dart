@@ -1,4 +1,4 @@
-import 'package:bmi_calculator/calculatorBrain.dart';
+import 'package:bmi_calculator/components/calculatorBrain.dart';
 import 'package:bmi_calculator/components/bottomButton.dart';
 import 'package:bmi_calculator/components/icon_content.dart';
 import 'package:bmi_calculator/components/reusable_card.dart';

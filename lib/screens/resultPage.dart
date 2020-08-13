@@ -68,11 +68,14 @@ class ResultPage extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 100.0),
                         ),
-                        Text(
-                          args.interpretation,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            args.interpretation,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 20.0,
+                            ),
                           ),
                         )
                       ],
